@@ -1,5 +1,5 @@
 # changing directory to code project
-function c { cd ~/Code/$1; }
+function c { cd ~/md/$1; }
 
 # general aliases
 alias cd..="cd .."
