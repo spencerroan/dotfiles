@@ -2,11 +2,11 @@
 
 These are config files to set up a system the way I like it. They are heavily
 inspired by Ryan Bates' Dot Files (http://github.com/ryanb/dotfiles)
-
+via liveh2o github.com/liveh2o/dotfiles
 
 == Installation
 
-  git clone git://github.com/liveh2o/dotfiles ~/.dotfiles
+  git clone git://github.com/spencerroan/dotfiles ~/.dotfiles
   cd ~/.dotfiles
   rake install
 
