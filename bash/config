@@ -5,4 +5,4 @@ source ~/.bash/colors
 source ~/.bash/completions
 source ~/.bash/functions
 
-PS1="\h $CYAN \w$BRIGHT_VIOLET \$(parse_git_branch) $BRIGHT_WHITE\$ "
+PS1="\h $CYAN \w$BRIGHT_VIOLET \$(parse_git_branch) $BRIGHT_BLACK\$ "

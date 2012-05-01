@@ -13,7 +13,6 @@ alias kp="ps auxwww"
 # bundler aliases
 alias b="bundle"
 alias bi="b install --path vendor"
-alias bo="EDITOR=mate b open"
 alias bu="b update"
 alias bx="b exec"
 alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
@@ -24,8 +23,6 @@ alias gs="g status"
 alias master="g checkout master"
 alias pop="g stash pop"
 alias stash="g stash"
-
-alias recompile="bx thor proto:clean --force; bx thor proto:compile"
 
 # misc
 alias path='echo $PATH'
