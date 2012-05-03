@@ -33,3 +33,8 @@ the prompt while in a git repository.
 If there are some shell configuration settings which you want secure or specific to one system, place it into a ~/.localrc file. This will be loaded automatically if it exists.
 
 If you're using RVM, it's automatically loaded as well.
+
+== Gitignore 
+to make a global gitignore create the file normally and run:
+git config --global core.excludesfile ~/.gitignore
+
