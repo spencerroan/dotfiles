@@ -15,6 +15,7 @@ alias b="bundle"
 alias bi="b install --path vendor"
 alias bu="b update"
 alias bx="b exec"
+alias bxr="bx rspec"
 alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 # git aliases
